@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main {
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+.alert ul {
+    margin-bottom: 0;
+}
+.alert ul li {
+    font-size: 15px;
+}
+.btn-secondary {
+    color: #222;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 2px 10px;
+}
+.btn-secondary:hover {
+    color: #222;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    padding: 2px 10px;
+}
+
+.main .row, .main .new-user-form, .main .users-table {
+    height: 100%;
+}
+
+.main h1 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.main .col-md-5 {
+    border-right: 1px solid #eee;
+}
+.main .new-user-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.main .new-user-form .inner {
+    width: 60%;
+}
+.main .new-user-form .btn {
+    background: #031feb;
+    border-color: #031feb;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 25px;
+    height: auto;
+    width: 100%;
+    border-radius: .75rem;
+
+}
+.main .new-user-form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: #0e122e;
+}
+.main .new-user-form .form-control {
+    padding: 15px 10px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+.main .new-user-form .form-control:focus {
+    color: #0e122e;
+    outline: 0;
+    box-shadow: 0 0 2px 0.1rem rgb(216 79 85 / 10%);
+}
+
+.main .users-table {
+    padding: 50px 20px;
+}
+.main .users-table .inner {
+    width: 90%;
+}
+.main .table thead th {
+    border-top: none;
+}
+.main .table tbody td {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+
